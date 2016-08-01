@@ -1,0 +1,12 @@
+brewing101/__init__.py
+brewing101/brewing101.py
+brewing101/static/README.txt
+brewing101/static/css/brewing101.css
+brewing101/static/html/brewing101.html
+brewing101/static/js/src/brewing101.js
+brewing101_xblock.egg-info/PKG-INFO
+brewing101_xblock.egg-info/SOURCES.txt
+brewing101_xblock.egg-info/dependency_links.txt
+brewing101_xblock.egg-info/entry_points.txt
+brewing101_xblock.egg-info/requires.txt
+brewing101_xblock.egg-info/top_level.txt

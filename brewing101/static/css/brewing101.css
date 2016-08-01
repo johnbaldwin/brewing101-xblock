@@ -1,0 +1,9 @@
+/* CSS for Brewing101XBlock */
+
+.brewing101_block .count {
+    font-weight: bold;
+}
+
+.brewing101_block p {
+    cursor: pointer;
+}
