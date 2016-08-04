@@ -20,11 +20,12 @@ There are two parts of this XBlock:
 
 2. Exercise - The user is presented with an exercise to solve. The user is to calculate and enter the answer, then click the submit button.
 
-This project was scaffolded using the xblock-sdk generator:
+This project was scaffolded using the xblock-sdk generator
 
 ```workbench-make-xblock```
 
-The studio functionality is adapted from scormxblock:
+
+The studio functionality is adapted from scormxblock
 
 * https://github.com/appsembler/edx_xblock_scorm
 
@@ -37,18 +38,18 @@ Source of formula
 Installation
 ------------
 
-Refer to the edX XBlock installation instructions:
+Refer to the edX XBlock installation instructions
 
 * http://edx.readthedocs.io/projects/xblock-tutorial/en/latest/edx_platform/devstack.html
 
 Testing
 -------
 
-Testing is broken. It appears the tests need to run through manage.py:
+Testing is broken. It appears the tests need to run through manage.py
 
 ```python manage.py test```
 
-But manage.py needs to be run from 
+But manage.py needs to be run from the xblock-sdk directory
 
 
 Currently the following error occurs when running
