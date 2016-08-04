@@ -1,9 +1,22 @@
 /* CSS for Brewing101XBlock */
 
+.brewing101_block {
+	border: 1px solid green;
+	margin: 2px;
+}
+
+.brewing101_block .content_title {
+
+}
 .brewing101_block .count {
     font-weight: bold;
 }
 
-.brewing101_block p {
+.brewing101_block .clickable {
     cursor: pointer;
 }
+
+.instructions {
+	border: 1px solid black;
+}
+

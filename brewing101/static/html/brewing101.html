@@ -1,5 +1,42 @@
 <div class="brewing101_block">
-<p>Brewing101XBlock: count is now
-    <span class='count'>{self.count}</span> (click me to increment).
-</p>
+  <div class="course-info">
+  	<h1>{self.course_name} - {self.org_name}</h1>
+  </div>
+  <div class="brew-poll">
+  	<h1>Have you ever brewed beer before?</h1>
+  	<p>Please answer this poll (it's optional). It will help us improve this course.</p>
+  	<form class="poll-form">
+  		<input type="radio" name="has-brewed-choice" value="no" />
+  		<label for="has-brewed-choice-no">No</label>
+  		<input type="radio" name="has-brewed-choice" value="yes" />
+  		<label for="has-brewed-choice-yes">Yes</label>
+  	</form>
+  	<div class="poll-thankyou"></div>
+  </div>
+  <div class="brewing-problem">
+  	<h1 class="problem-title">Exercise: Single mash infusion calculation</h1>
+  	<p class="problem-description">Blah, blah, blah. Talk about prerequisite information needed for the next paragraph. Blah, blah, blah...</p>
+  	<p class="problem-description">
+  	Once the grains have been crushed and put into a mash tun, water is added to begin the mashing process. This water is called the <em>strike water</em>.	How much water, water temperature, how much grain, and grain temperature determine the mash temperature.
+  	</p>
+  	<div class="equation-section"> 
+  		<span class="equation">Strike water temperature Tw = (0.2 / R)(T2-T1) + T2</span>
+  		<ul class="calc-variable-list">
+  			<li>Tw - Strike water temperature in degrees Fahrenheit </li>
+  			<li>R - Ratio of water to grain in quarts per pound</li>
+  			<li>T1 - Initial temperature of the mash (grain before adding water)</li>
+  			<li>T2 - Target temperature of the mash (grain after water is added)</li>
+  		</ul>
+  	</div>
+	<p class="problem-description"> If we have 10 quarts of water and 10 pounds of grain (for a ratio value of 1) and the grain is room temperature (70 &deg;F), what temperature do we need for the strike water to get a target temperature of 155&deg;F? Round your answer up to the next whole number.
+		</p>
+	</div>
+	<div class="answer-box">
+		<input class="input" type="text" name="answer_input" placeholder="answer here" />
+		<span class="answer-message"></span>
+	</div>
+	<div class="button-row">
+			<button class="submit-answer-button">Submit answer</button>
+	</div>
+  </div>
 </div>
